@@ -3,16 +3,20 @@
     background-repeat: no-repeat;
     background-size: auto;
     background-position: right;
-    width: 900px;
+    background-color: black;
+    width: 1250px;
     height: 700px;
     padding: 10px 10px 10px 10px;
     color: black;
     padding-left: 5%;
+    border-radius: 2em;
+    margin-bottom: 50px;
 
 }
 
 .background-images h1 {
     font-size: 50px;
+    color: aliceblue;
 }
 
 .watch-live {
@@ -35,6 +39,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 25px;
+    color: aliceblue;
 }
 
 /*---------------
@@ -52,4 +57,59 @@ blogs styles
 
 .blog-info {
     display: flex;
+    align-items: center;
+
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1300px;
+    grid-column-gap: 24px;
+    border: .5px solid rgb(222, 227, 233);
+    margin: 10px 10px 10px 10px;
+    border-radius: 1em;
+    align-items: center;
+}
+
+.blog {
+    margin: 10px 10px 10px 10px;
+    border: .50px solid rgb(239, 243, 247);
+    border-radius: 1em;
+}
+
+/*---------------
+Footer Styles
+----------------*/
+.footer .footer-list {
+    display: flex;
+    margin-top: 50px;
+    /* width: ; */
+    height: 110px;
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-between;
+    color: #efefef;
+    text-align: center;
+
+}
+
+hr {
+    width: 50%;
+    color: #8a8383;
+}
+
+.footer-goal {
+    background-color: black;
+    padding-top: 10px;
+}
+
+.footer-goal h1 {
+    color: #efefef;
+    text-align: center;
+
+}
+
+.footer-start {
+    padding: 30px;
 }
