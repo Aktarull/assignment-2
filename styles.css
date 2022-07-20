@@ -87,6 +87,16 @@ blogs styles
     margin-bottom: 30px;
 }
 
+.small-image {
+    width: 50px;
+    display: flex;
+}
+
+.blog-image {
+    display: flex;
+    width: 200px;
+}
+
 .blog-tittle {
     margin-top: 30px;
 }
@@ -100,7 +110,7 @@ blogs styles
 .blogs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 1300px;
+    width: 1000px;
     grid-column-gap: 24px;
     border: .5px solid rgb(222, 227, 233);
     margin: 10px 10px 10px 10px;
