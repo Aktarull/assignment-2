@@ -159,13 +159,3 @@ hr {
 .footer-start {
     padding: 30px;
 }
-
-/*------------
-mobile device
----------------*/
-@media only screen and(max-width:688px) {
-    .background-images {
-        background-color: crimson;
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
