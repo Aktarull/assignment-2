@@ -27,6 +27,18 @@
     text-align: center;
 }
 
+.upcoming-game {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 30, 0), tomato);
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    width: 65px;
+    height: 20px;
+
+}
+
 .transfer {
     text-decoration: none;
     padding: 15px 40px;
@@ -62,11 +74,12 @@ left box style*/
 }
 
 .info-btn {
-    height: 100px;
+    height: 250px;
     width: 150px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 10px;
+    border-radius: 10px;
 }
 
 
