@@ -1,0 +1,30 @@
+.background-images {
+    background-image: url(images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right;
+    width: 900px;
+    height: 700px;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    padding-left: 5%;
+
+}
+
+.background-images h1 {
+    font-size: 50px;
+}
+
+.watch-live {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 30, 0), tomato);
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.tittle-decoration {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
