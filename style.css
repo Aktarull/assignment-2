@@ -23,8 +23,33 @@
     text-align: center;
 }
 
+.transfer {
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid black;
+}
+
 .tittle-decoration {
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 25px;
+}
+
+/*---------------
+blogs styles
+---------------*/
+.blogs .blog-image img {
+    width: 224px;
+    height: 104px;
+    margin-bottom: 30px;
+}
+
+.blog-tittle {
+    margin-top: 30px;
+}
+
+.blog-info {
+    display: flex;
 }
